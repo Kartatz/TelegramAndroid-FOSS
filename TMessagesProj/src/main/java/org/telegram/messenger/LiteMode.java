@@ -85,9 +85,9 @@ public class LiteMode {
     ); // 262143
     public static int PRESET_POWER_SAVER = 0;
 
-    private static int BATTERY_LOW = 10;
-    private static int BATTERY_MEDIUM = 10;
-    private static int BATTERY_HIGH = 10;
+    private static int BATTERY_LOW = 100;
+    private static int BATTERY_MEDIUM = 100;
+    private static int BATTERY_HIGH = 100;
 
     private static int powerSaverLevel;
     private static boolean lastPowerSaverApplied;
